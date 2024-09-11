@@ -6,8 +6,7 @@
   height: 8rem;
   padding-inline: 100px ;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-between;  
   .header__logo {
     height: inherit;
     background-color: yellow;
@@ -26,13 +25,13 @@
   .header__nav { 
     height: inherit;
     background-color: aqua;
-    margin-left: 20px;
+    padding-left: 20px;
     display: flex;
     align-items: center;
     ul {  
       height: inherit;
       display: flex;    
-      column-gap: 30px;  
+      column-gap: 33px;  
       li {        
         height: inherit;       
         a {
@@ -49,10 +48,6 @@
 
 a:hover {
   opacity: 0.5;
-}
-
-.header__nav ul li:nth-child(3) a {
-  padding-left: 5px;
 }
 
 .header__nav-contact-btn {

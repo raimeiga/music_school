@@ -35,9 +35,6 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 .header__inner .header__logo {
   height: inherit;
@@ -61,7 +58,7 @@ a {
 .header__inner .header__nav {
   height: inherit;
   background-color: aqua;
-  margin-left: 20px;
+  padding-left: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -74,9 +71,9 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-column-gap: 30px;
-     -moz-column-gap: 30px;
-          column-gap: 30px;
+  -webkit-column-gap: 33px;
+     -moz-column-gap: 33px;
+          column-gap: 33px;
 }
 .header__inner .header__nav ul li {
   height: inherit;
@@ -95,10 +92,6 @@ a {
 
 a:hover {
   opacity: 0.5;
-}
-
-.header__nav ul li:nth-child(3) a {
-  padding-left: 5px;
 }
 
 .header__nav-contact-btn {
