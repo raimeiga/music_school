@@ -1,21 +1,18 @@
-$red : #dc143c;
+// Foundation
+@import 'foundation/base';
+@import 'foundation/normalize';
+@import 'foundation/variable';
+@import 'foundation/mixin';
 
-.content {
-  div {
-    width: 100%;
-    h1 {
-      font-size: 36px;
-      font-weight: bold;
-      color: $red;
-    }
-    p {
-      font-size: 18px;
-      // 追記
-   box-sizing: border-box;
-    }
-  }
-  &-img-area {
-    width: 100%;
-    background: rgba($red, 0.2);
-  }
-}
+// Layout
+@import 'layout/header';
+@import 'layout/footer';
+
+// Object
+@import 'object/component/component';
+@import 'object/project/index-concept';
+@import 'object/project/index-main';
+@import 'object/project/index-massage';
+@import 'object/project/result-details';
+@import 'object/project/result-list';
+@import 'object/utility/utility';
