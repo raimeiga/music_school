@@ -20,3 +20,13 @@ body {
  font-weight: 600;  //weightは「Medium」=500px,「Bold」＝700px,  
  letter-spacing: 0; 
 }
+
+img {
+ width: 100%;
+ height: auto;
+ display: block;
+}
+
+a {
+ cursor: pointer;
+}

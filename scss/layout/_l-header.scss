@@ -1,16 +1,20 @@
+@use '../foundation/variable' as *;
+@use '../foundation/mixin' as *;
 
 .header__inner {
   width: 100%;
   height: 8rem;
-  padding-inline: 100px;
+  padding-inline: 100px ;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-
-.header__logo {
-  display: flex;
+  .header__logo {
+    height: inherit;
+    background-color: yellow;
+    display: flex;
+    align-items: center;
     .header__logo-text {
+      padding: 10px;
       font-size: 20px;
       line-height: calc(23 / 20);
         .header__logo-text-span {
@@ -18,25 +22,52 @@
           line-height: calc(23 / 15);
         }
     }
-}
-.header__nav { 
-  ul {  
+  }
+  .header__nav { 
+    height: inherit;
+    background-color: aqua;
+    margin-left: 20px;
     display: flex;
-    column-gap: 33px;
-      li {
+    align-items: center;
+    ul {  
+      height: inherit;
+      display: flex;    
+      column-gap: 30px;  
+      li {        
+        height: inherit;       
         a {
+          height: inherit;
+          display: flex;
+          align-items: center;          
           font-size: 17px;
           line-height: calc(33 / 17);
         }
       }
+    }
   }
-
 }
 
+a:hover {
+  opacity: 0.5;
 }
 
 .header__nav ul li:nth-child(3) a {
-  padding-inline: 3px;
+  padding-left: 5px;
 }
 
+.header__nav-contact-btn {
+  background-color: $color-red;
+  width: 150px;
+  height: 45px; 
+  margin-left: 33px;
+}
+
+.header__nav-contact-btn a {
+  height: inherit;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  line-height: calc(33 / 15);
+}
 

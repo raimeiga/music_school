@@ -1,18 +1,23 @@
-// Foundation
-@import 'foundation/base';
-@import 'foundation/normalize';
-@import 'foundation/variable';
-@import 'foundation/mixin';
+// _normalize.scssは、リセットやノーマライズのためのファイル。
+//スタイルの初期化やリセットを行うため、他のスタイルが適用される前,
+//つまり最初に読込む必要がある
 
-// Layout
-@import 'layout/header';
-@import 'layout/footer';
+// foundationフォルダ
+@use 'foundation/normalize';  // リセットやノーマライズ（一番上に記述）                              
+@use 'foundation/base';       // 変数やミックスインの定義
+@use 'foundation/variable';   // 変数の設定（base の後）
+@use 'foundation/mixin';      // ミックスインの定義（base の後）
 
-// Object
-@import 'object/component/component';
-@import 'object/project/index-concept';
-@import 'object/project/index-main';
-@import 'object/project/index-massage';
-@import 'object/project/result-details';
-@import 'object/project/result-list';
-@import 'object/utility/utility';
+// layoutフォルダ
+@use 'layout/l-header';       // ヘッダーのスタイル（foundation の後）
+@use 'layout/l-footer';       // フッターのスタイル（foundation の後）
+
+// objectフォルダ
+@use 'object/component/component'; // コンポーネントのスタイル（layout の後）
+@use 'object/project/p-index-concept'; // プロジェクトのスタイル（layout の後）
+@use 'object/project/p-index-main';    // プロジェクトのスタイル（layout の後）
+@use 'object/project/p-index-massage'; // プロジェクトのスタイル（layout の後）
+@use 'object/project/p-result-details'; // プロジェクトのスタイル（layout の後）
+@use 'object/project/p-result-list';    // プロジェクトのスタイル（layout の後）
+@use 'object/utility/u-utility';       // ユーティリティ（object の後）
+
