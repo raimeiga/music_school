@@ -49,3 +49,15 @@ a {
 // コンテンツ幅は880px。そこで、htmlで画面幅940px以下か
 // ら全ての縮小が始まるように設定しておくと、画面幅が940px
 // 以下では常に左右の余白が30pxずつ維持される。
+
+// PC、SPの非表示 とりあえず記述し、あとでhtmlで使う感じか？*/
+@media (max-width: 767px) {
+  .pc {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) {
+  .sp {
+    display: none !important;
+  }
+}
