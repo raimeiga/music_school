@@ -6,6 +6,11 @@ html {
   word-break: break-all;
   font-size: 10px;
 }
+@media (min-width: 768px) and (max-width: 940px) {
+  html {
+    font-size: 1.0638297872vw;
+  }
+}
 
 body {
   font-family: "Yu Gothic", "游ゴシック", "YuGothic", "游ゴシック体", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN", "MS PGothic", "ＭＳ Ｐゴシック", "Arial", sans-serif;
@@ -25,10 +30,15 @@ a {
   cursor: pointer;
 }
 
+.inner {
+  width: 88rem;
+  margin: 0 auto;
+}
+
 .header__inner {
   width: 100%;
-  height: 8rem;
-  padding-inline: 100px;
+  height: min(7.4074074074vw, 80px);
+  padding-inline: min(9.2592592593vw, 100px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -46,19 +56,31 @@ a {
       -ms-flex-align: center;
           align-items: center;
 }
-.header__inner .header__logo .header__logo-text {
-  padding: 10px;
-  font-size: 20px;
+.header__inner .header__logo a {
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 1rem;
+     -moz-column-gap: 1rem;
+          column-gap: 1rem;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+.header__inner .header__logo a .header__logo-text {
+  font-size: min(1.8518518519vw, 20px);
   line-height: 1.15;
 }
-.header__inner .header__logo .header__logo-text .header__logo-text-span {
-  font-size: 15px;
+.header__inner .header__logo a .header__logo-text .header__logo-text-span {
+  font-size: min(1.3888888889vw, 15px);
   line-height: 1.5333333333;
 }
 .header__inner .header__nav {
   height: inherit;
   background-color: aqua;
-  padding-left: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,9 +93,9 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-column-gap: 33px;
-     -moz-column-gap: 33px;
-          column-gap: 33px;
+  -webkit-column-gap: 3.3rem;
+     -moz-column-gap: 3.3rem;
+          column-gap: 3.3rem;
 }
 .header__inner .header__nav ul li {
   height: inherit;
@@ -86,8 +108,10 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 17px;
+  font-size: min(1.5740740741vw, 17px);
   line-height: 1.9411764706;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
 }
 
 a:hover {
@@ -96,9 +120,9 @@ a:hover {
 
 .header__nav-contact-btn {
   background-color: #CB0000;
-  width: 150px;
-  height: 45px;
-  margin-left: 33px;
+  width: 15rem;
+  height: 4.5rem;
+  margin-left: 3.3rem;
 }
 
 .header__nav-contact-btn a {
@@ -112,6 +136,8 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 15px;
+  font-size: min(1.3888888889vw, 15px);
   line-height: 2.2;
+  -webkit-transition: opacity 0.4s;
+  transition: opacity 0.4s;
 }/*# sourceMappingURL=style.css.map */
