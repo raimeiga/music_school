@@ -27,48 +27,62 @@
 <body>
  <!-- header -->
  <header>
-  <div class="header__inner">
-    <div class="header__logo">
-      <a href="">
-        <div class="header__logo-image">
-          <picture>
-            <source media="(max-width: 767px)" srcset="./images/sp_logo20x31.svg">
-            <img src="./images/logo32x49.svg" alt="">
-          </picture>
-        </div>
-        <div class="header__logo-text">
-          <h1>きたむら<br class="pc"><span class="header__logo-text-span">ミュージックスクール</h1>
-        </div>  
-      </a>   
-    </div>
-   
-   <div class="header__nav pc">
-    <ul>
-      <li>
-        <a href="">料金</a>
-      </li>
-      <li>
-        <a href="">ブログ</a>
-      </li>
-      <li>
-        <a href="">卒業実績</a>
-      </li>    
-    </ul>
-    <div class="header__nav-contact-btn">
-      <a href="">お問い合わせ</a>
-    </div>   
+   <div class="header__inner">
+     <div class="header__logo">
+       <a href="">
+         <div class="header__logo-image">
+           <picture>
+             <source media="(max-width: 767px)" srcset="./images/sp_logo20x31.svg">
+             <img src="./images/logo32x49.svg" alt="">
+           </picture>
+         </div>
+         <div class="header__logo-text">
+           <h1>きたむら<br class="pc"><span class="header__logo-text-span">ミュージックスクール</h1>
+         </div>  
+       </a>   
+     </div>
+     <div class="header__right">
+       <div class="header__hb-btn sp">
+         <div class="header__hb-inner">
+           <span></span>
+           <span></span>
+           <span></span>
+         </div>
+       </div>
+      
+       <div class="header__nav">
+         <ul>
+           <li>
+             <a href="#hisokada">料金</a>
+           </li>
+           <li>
+             <a href="#hisokada">ブログ</a>
+           </li>
+           <li>
+             <a href="#hisokada">卒業実績</a>
+           </li>    
+         </ul>
+       </div>
+       <a href="" class="header__contact pc active">お問い合わせ</a>
+     </div>
    </div>
-  </div>
  </header>
  
  <main>
-
+<div class="hisoka" ></div>
+<div class="hisoka" ></div>
+<div id="hisokada" >hisokada</div>
  </main>
 
  <footer>
 
  </footer>
 
+ <!--jQueryの読み込み --> 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+ <!-- javascriptの読み込み -->
+ <script src="./js/main.js"> </script>
 </body>
 
 
