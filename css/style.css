@@ -78,6 +78,9 @@ a {
          column-gap: 0.65rem;
   }
 }
+.header__inner .header__logo a:hover {
+  opacity: 0.5;
+}
 .header__inner .header__logo a .header__logo-text {
   font-size: min(1.8518518519vw, 20px);
   line-height: 1.15;

@@ -27,6 +27,9 @@
       @include sp {
         column-gap: 0.65rem;
       }
+      &:hover {
+       opacity: 0.5;
+      }
       .header__logo-text {          
         //font-size: 20px;
         font-size: hvw(20);
