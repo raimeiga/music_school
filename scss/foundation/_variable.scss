@@ -31,7 +31,7 @@ $color-red: #CB0000;
 
 // $pixelSizeにfont-sizeの拡大最大値を入れると、その値以上に拡大しない
 @function hvw($pixelSize) {
-  @return min(calc($pixelSize / 1080 * 100vw), $pixelSize * 1px);
+  @return min(calc($pixelSize / 940 * 100vw), $pixelSize * 1px);
 }
 
 

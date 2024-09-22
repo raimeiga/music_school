@@ -12,12 +12,43 @@
 // layoutフォルダ
 @use 'layout/l-header';       // ヘッダーのスタイル（foundation の後）
 @use 'layout/l-footer';       // フッターのスタイル（foundation の後）
+@use 'layout/l-inner';       // フッターのスタイル（foundation の後）
+@use 'layout/l-red-inner';       // フッターのスタイル（foundation の後）
 
 // objectフォルダ
 @use 'object/component/component'; // コンポーネントのスタイル（layout の後）
-@use 'object/project/p-index-concept'; // プロジェクトのスタイル（layout の後）
-@use 'object/project/p-index-main';    // プロジェクトのスタイル（layout の後）
-@use 'object/project/p-index-massage'; // プロジェクトのスタイル（layout の後）
+@use 'object/component/c-hamburger'; // コンポーネントのスタイル（layout の後）
+@use 'object/component/c-contact'; // コンポーネントのスタイル（layout の後）
+@use 'object/component/c-section-title';    // プロジェクトのスタイル（layout の後）
+@use 'object/component/c-top-back-btn';    // プロジェクトのスタイル（layout の後）
+
+@use 'object/project/p-header';    // プロジェクトのスタイル（layout の後）
+
+
+@use 'object/project/p-header-logo'; // プロジェクトのスタイル（layout の後）
+@use 'object/project/p-header-nav';    // プロジェクトのスタイル（layout の後）
+@use 'object/project/p-fv';    // プロジェクトのスタイル（layout の後）
+@use 'object/project/p-message'; // プロジェクトのスタイル（layout の後）
+@use 'object/project/p-concept'; // プロジェクトのスタイル（layout の後）
+@use 'object/project/p-concept-flow'; // プロジェクトのスタイル（layout の後）
+@use 'object/project/p-concept-flow-detail'; // プロジェクトのスタイル（layout の後）
+@use 'object/project/p-reason'; // プロジェクトのスタイル（layout の後）
+@use 'object/project/p-reason-content'; // プロジェクトのスタイル（layout の後）
+@use 'object/project/p-reason-content-textarea'; // プロジェクトのスタイル（layout の後）
+@use 'object/project/p-voice'; // プロジェクトのスタイル（layout の後）
+@use 'object/project/p-voice-list'; // プロジェクトのスタイル（layout の後）
+
+@use 'object/project/p-flow'; // プロジェクトのスタイル（layout の後）
+@use 'object/project/p-flow-list'; // プロジェクトのスタイル（layout の後）
+
+@use 'object/project/p-qa'; // プロジェクトのスタイル（layout の後）
+@use 'object/project/p-qa-list'; // プロジェクトのスタイル（layout の後）
+@use 'object/project/p-blog'; // プロジェクトのスタイル（layout の後）
+@use 'object/project/p-footer'; // プロジェクトのスタイル（layout の後）
+@use 'object/project/p-footer-nav'; // プロジェクトのスタイル（layout の後）
+@use 'object/project/p-btn'; // プロジェクトのスタイル（layout の後）
+
+
 @use 'object/project/p-result-details'; // プロジェクトのスタイル（layout の後）
 @use 'object/project/p-result-list';    // プロジェクトのスタイル（layout の後）
 @use 'object/utility/u-utility';       // ユーティリティ（object の後）

@@ -1,0 +1,27 @@
+@use '../../foundation/variable' as *;
+@use '../../foundation/mixin' as *;
+
+.p-header {   
+ width: 100%;
+ padding-inline: 10rem;
+ height: 8rem; 
+ display: flex;
+ justify-content: space-between;
+ @include sp {
+   height: 5rem;
+   padding: 0;
+   padding-left: 2rem;
+ }  
+}
+
+.p-header__logo {
+ height: inherit;    
+ display: flex;
+ align-items: center;
+}
+
+.p-header__right {
+  height: inherit;
+  display: flex;
+  align-items: center;
+ }

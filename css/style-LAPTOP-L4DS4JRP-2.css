@@ -191,7 +191,6 @@ a {
 .c-section-title {
   margin: 0 auto;
   font-size: 3rem;
-  font-weight: 600;
   line-height: 1.6666666667;
 }
 @media only screen and (max-width: 767px) {
@@ -210,7 +209,7 @@ a {
   justify-content: center;
   align-items: center;
   position: fixed;
-  bottom: 34rem;
+  bottom: 34.4rem;
   right: 10rem;
   opacity: 0;
   visibility: hidden;
@@ -257,21 +256,12 @@ a {
   align-items: center;
 }
 
-.p-header__contact {
-  width: 15rem;
-  height: 4.5rem;
-  font-size: 1.5rem;
-  line-height: 2.2;
-  padding-top: 0.1rem;
-  margin-left: 3.3rem;
-}
-
 .p-header-logo a {
   height: inherit;
   display: flex;
   align-items: center;
-  -moz-column-gap: 1rem;
-       column-gap: 1rem;
+  -moz-column-gap: 0.6rem;
+       column-gap: 0.6rem;
   transition: opacity 0.4s;
 }
 @media only screen and (max-width: 767px) {
@@ -289,7 +279,8 @@ a {
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.15;
-  padding-top: 0.6rem;
+  padding-top: 0.5rem;
+  letter-spacing: -0.1em;
 }
 @media only screen and (max-width: 767px) {
   .p-header-logo__text h1 {
@@ -302,6 +293,7 @@ a {
   font-size: 1.5rem;
   font-weight: 600;
   line-height: 1.5333333333;
+  letter-spacing: -0.1em;
 }
 @media only screen and (max-width: 767px) {
   .p-header-logo__text h1 span {
@@ -428,7 +420,7 @@ a {
   top: 52%;
   left: 50%;
   width: 100%;
-  transform: translate(-50%, -49%);
+  transform: translate(-51%, -49%);
   z-index: 5;
 }
 @media only screen and (max-width: 767px) {
@@ -442,10 +434,10 @@ a {
 .p-fv__contents h2 {
   color: #fff;
   font-size: 3.7037037037vw;
-  font-weight: 600;
   line-height: 1.5;
   text-align: center;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.05em;
+  text-indent: -0.05em;
   width: 48rem;
   margin-inline: auto;
 }
@@ -464,7 +456,7 @@ a {
   display: flex;
   flex-direction: column;
   row-gap: 3rem;
-  padding-block: 6.8rem 6.2rem;
+  padding-block: 6.4rem;
 }
 @media only screen and (max-width: 767px) {
   .p-message {
@@ -491,7 +483,7 @@ a {
 
 .p-concept {
   background-color: yellow;
-  padding-block: 6.6rem 3.4rem;
+  padding-block: 6.6rem 4rem;
 }
 @media only screen and (max-width: 767px) {
   .p-concept {
@@ -503,7 +495,6 @@ a {
   background-color: yellow;
   color: #CB0000;
   font-size: 3.5rem;
-  font-weight: 600;
   line-height: 1.4285714286;
   text-align: center;
 }
@@ -545,8 +536,9 @@ a {
 .p-concept-flow-detail {
   background-color: yellow;
   width: 37rem;
-  margin: 1.9rem auto;
+  margin: 1.7rem auto;
   display: flex;
+  padding-top: -1rem;
 }
 @media only screen and (max-width: 767px) {
   .p-concept-flow-detail {
@@ -631,7 +623,7 @@ a {
 }
 
 .p-reason {
-  padding-block: 6.4rem 7rem;
+  padding-block: 6.6rem 7rem;
   background-color: yellow;
 }
 @media only screen and (max-width: 767px) {
@@ -751,7 +743,6 @@ a {
 .p-reason-content-textarea__title h2 {
   padding: 0.6rem 5rem 1.2rem;
   font-size: 2.2rem;
-  font-weight: 600;
   line-height: 1.5;
   text-align: left;
 }
@@ -870,7 +861,6 @@ a {
   padding-block: 1.7rem 1rem;
   color: #fff;
   font-size: 2.2rem;
-  font-weight: 600;
   line-height: 1.5;
 }
 @media only screen and (max-width: 767px) {
@@ -902,7 +892,7 @@ a {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  row-gap: 5.8rem;
+  row-gap: 6.4rem;
   position: relative;
 }
 @media only screen and (max-width: 767px) {
@@ -920,7 +910,7 @@ a {
   border-bottom: 0.4rem solid #CB0000;
   position: absolute;
   left: 5rem;
-  bottom: 3.2rem;
+  bottom: 2.5rem;
   transform: translateY(186%) rotate(45deg);
 }
 @media only screen and (max-width: 767px) {
@@ -950,7 +940,7 @@ a {
   content: "";
   position: absolute;
   left: -9%;
-  top: 45%;
+  top: 50%;
   transform: translateY(-70%);
   width: 20px;
   height: 20px;
@@ -968,11 +958,11 @@ a {
 .p-flow-list:nth-of-type(1) ::after {
   content: ""; /* 直線を表示するため */
   width: 0.3rem; /* 直線の長さ */
-  height: 39.5rem; /* 直線の太さ */
+  height: 41rem; /* 直線の太さ */
   background-color: #CB0000; /* 直線の色 */
   position: absolute; /* 円の上に配置 */
   top: 50%; /* 円の中央に配置 */
-  left: -6rem; /* 円の中央に配置 */
+  left: -5.9rem; /* 円の中央に配置 */
   transform: trans late(-4%, -2%); /* 直線の中心を円の中心に合わせる */
 }
 @media only screen and (max-width: 767px) {
@@ -1004,7 +994,7 @@ a {
 .p-flow-list__text {
   background-color: pink;
   font-size: 1.8rem;
-  line-height: 1.6666666667;
+  line-height: 1.5;
   text-align: left;
 }
 @media only screen and (max-width: 767px) {
@@ -1019,7 +1009,7 @@ a {
 }
 
 .p-qa__lists {
-  margin-top: 3.3rem;
+  margin-top: 4.1rem;
   border-top: solid 0.05rem #000;
 }
 
@@ -1126,12 +1116,10 @@ a {
 }
 
 .p-blog__inner {
-  padding-block: 6.7rem 23.5rem;
-  position: relative;
+  padding-block: 6rem 20.5rem;
 }
 @media only screen and (max-width: 767px) {
   .p-blog__inner {
-    position: initial;
     padding-top: 5rem;
   }
 }
@@ -1139,7 +1127,7 @@ a {
 .p-blog__lists {
   background-color: aqua;
   width: 100%;
-  padding-top: 3.5rem;
+  padding-top: 3.8rem;
   padding-bottom: 3.7rem;
   display: flex;
   -moz-column-gap: 5rem;
@@ -1176,8 +1164,8 @@ a {
   padding-top: 0.2rem;
   background-color: #CB0000;
   color: #fff;
-  font-size: 1.5rem;
-  line-height: 1.6666666667;
+  font-size: 1.3rem;
+  line-height: 1.9230769231;
 }
 @media only screen and (max-width: 767px) {
   .p-blog-list__image-cap {
@@ -1191,7 +1179,6 @@ a {
 
 .p-blog-list__text {
   font-size: 2rem;
-  font-weight: 600;
   line-height: 1.25;
   text-align: left;
   margin-block: 2rem 1.3rem;
@@ -1213,10 +1200,6 @@ a {
 }
 
 .link-to-blog {
-  width: 10.8rem;
-  position: absolute;
-  bottom: 20.6rem;
-  right: 3.1rem;
   font-size: 1.8rem;
   line-height: 1.6666666667;
   border-bottom: 0.5px solid;
@@ -1343,20 +1326,6 @@ a {
 .p-footer-nav__list a {
   font-size: 1.7rem;
   line-height: 1.9411764706;
-}
-
-.p-btn__contact {
-  width: 30rem;
-  height: 6rem;
-  font-size: 2rem;
-  line-height: 1.65;
-  padding-top: 0.1rem;
-  margin-left: 3.3rem;
-  position: fixed;
-  bottom: 25rem;
-  right: 0;
-  opacity: 0;
-  visibility: hidden;
 }
 
 .u-flex-1 {
