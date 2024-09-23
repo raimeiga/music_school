@@ -4,10 +4,12 @@
 .p-qa-list__q { 
  position: relative;  
  display: flex;
- padding: 17px 0 13px 0;
+ //padding: 17px 0 13px 0;
+ padding: 1.7rem 0 1.3rem 0;
  cursor: pointer; 
  @include sp {
-  padding: 14px 0 11px 0;
+  // padding: 14px 0 11px 0;
+  padding: 1.4rem 0 1.1rem 0;
   display: flex;  
  }
 }
@@ -60,14 +62,16 @@
  background-color: $color-red;
 }
 
-.p-qa-list__a{ 
+.p-qa-list__a { 
  background-color: rgba(203, 0, 0, 0.098);
  color: $color-red; 
  display: none;
  display: flex;
- padding: 17px 0 13px 0;
+ //padding: 17px 0 13px 0;
+ padding: 1.7rem 0 1.3rem 0;
  @include sp {
-  padding: 15px 0 10px 0;
+  // padding: 15px 0 10px 0;
+  padding: 1.5rem 0 1.0rem 0;
   display: flex;  
  } 
 }
@@ -80,7 +84,7 @@
  @include sp {
    font-size: 1.6rem;
    line-height: calc(30 / 16);
-   width: 240px;
+   width: 24rem;
  }
 }
 
