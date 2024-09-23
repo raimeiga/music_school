@@ -4,7 +4,7 @@
 
 
 .p-reason-content-textarea__title {
- border-bottom: 0.1rem solid $color-red;
+ border-bottom: 0.2rem solid $color-red;
 }
 
 .p-reason-content-textarea__title h2 {
@@ -14,7 +14,7 @@
  line-height: calc(33 / 22);
  text-align: left;
  @include sp {
-  padding: 3rem 0 1rem;  
+  padding: 3rem 0 0.8rem;  
   font-size: 2rem;
   line-height: calc(30 / 20);  
  }

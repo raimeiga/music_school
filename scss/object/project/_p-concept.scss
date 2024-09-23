@@ -6,7 +6,7 @@
  background-color: yellow ; 
  padding-block: 6.6rem 3.4rem; 
  @include sp {      
-  padding-block: 4.5rem 2rem; 
+  padding-block: 4.5rem 1.6rem; 
  }
 }
 
@@ -29,7 +29,7 @@
  text-align: center;
  margin-block: 1.7rem 3.4rem;
  @include sp {
-  margin-block: 0.5rem 2rem;
+  margin-block: 0.7rem 2rem;
  }
 }
 

@@ -2,11 +2,11 @@
 @use '../../foundation/mixin' as *;
 
 
-.p-reason { 
+.p-reason__inner { 
  padding-block: 6.4rem 7rem;
  background-color: yellow;
  @include sp {
-  padding-block: 4.4rem 3.6rem;
+  padding-block: 4.9rem 3.6rem;
  }
 }
 
@@ -21,8 +21,8 @@
  flex-direction: column;
  row-gap: 5rem;
  @include sp {
-  padding-top: 4rem;
-  row-gap: 4rem;
+  padding-top: 3.5rem;
+  row-gap: 3.9rem;
  }
 }
 

@@ -38,7 +38,7 @@
  transform: translate(-50%, -49%); 
  z-index: 5; 
  @include sp {
-  top: 23%;
+  top: 24%;
   left: 50%;
   transform: translate(-50%, 50%); 
  }
@@ -50,7 +50,7 @@
  // ↓font-size: 4rem;で書くと、_base.scssの支配を
  // 受けて、941以上で拡大しないのでcalcで書いた。
  // このテキストは画面幅と共に拡大させたい。
- font-size: vw(40);
+ font-size: 4rem;
  font-weight: 600;
  line-height: calc(60 / 40);
  text-align: center;

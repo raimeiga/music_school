@@ -28,7 +28,7 @@
   background-color: $color-red; // 円の色を指定
   @include sp {
     left: -14%; // 50px左に配置
-    top: 13%; // 縦中央に配置
+    top: 9%; // 縦中央に配置
     transform: translateY(-50%); // 完全に中央に調整
   }
 }
