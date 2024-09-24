@@ -18,9 +18,12 @@
 // objectフォルダ
 @use 'object/component/component'; // コンポーネントのスタイル（layout の後）
 @use 'object/component/c-hamburger'; // コンポーネントのスタイル（layout の後）
+@use 'object/component/c-btn'; // コンポーネントのスタイル（layout の後）
 @use 'object/component/c-contact'; // コンポーネントのスタイル（layout の後）
 @use 'object/component/c-section-title';    // プロジェクトのスタイル（layout の後）
 @use 'object/component/c-top-back-btn';    // プロジェクトのスタイル（layout の後）
+@use 'object/component/c-breadcrumb';    // プロジェクトのスタイル（layout の後）
+
 
 @use 'object/project/p-header';    // プロジェクトのスタイル（layout の後）
 
@@ -49,5 +52,10 @@
 
 @use 'object/project/p-result-details'; // プロジェクトのスタイル（layout の後）
 @use 'object/project/p-result-list';    // プロジェクトのスタイル（layout の後）
+
+@use 'object/project/p-mv';    // プロジェクトのスタイル（layout の後）
+
+
+
 @use 'object/utility/u-utility';       // ユーティリティ（object の後）
 

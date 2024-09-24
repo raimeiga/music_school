@@ -8,16 +8,12 @@
  position: relative;
 }
 
-.p-fv__bg-image {
- width: 100%;
-}
-
-.p-fv__bg-image {
+.p-fv__image {
  width: 100%;
  position: relative;
 }
 
-.p-fv__bg-image::after { //疑似要素で画像の上層に背景をのせる
+.p-fv__image::after { //疑似要素で画像の上層に背景をのせる
  content: ''; 
  position: absolute;
  top: 0;

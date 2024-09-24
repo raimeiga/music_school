@@ -51,10 +51,10 @@ $(window).scroll(function(){
 
   if(scrollTop > 200) { 
     $('.c-top-back-btn').addClass('active')
-    $('.c-contact').addClass('active')
+    $('.c-btn').addClass('active')
   } else {
     $('.c-top-back-btn').removeClass('active')
-    $('.c-contact').removeClass('active')
+    $('.c-btn').removeClass('active')
   }
 })
 
