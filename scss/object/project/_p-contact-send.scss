@@ -1,0 +1,32 @@
+@use '../../foundation/variable' as *;
+@use '../../foundation/mixin' as *;
+
+
+
+.p-contact-send {
+padding-block: 6.7rem 9rem; 
+@include sp {
+ padding-block: 4.7rem 5rem; 
+}
+}
+
+.p-contact-send__text {
+  background-color: yellow;
+  padding-bottom: 4rem;
+  font-size: 1.8rem;
+  line-height: calc(30 / 18);
+  @include sp {
+    font-size: 1.6rem;
+    line-height: calc(30 / 16);
+    text-align: left;
+  }
+}
+
+
+
+
+.p-contact-send__text--pad-short {
+ @include sp {
+   padding-bottom: 9px;
+ }
+}

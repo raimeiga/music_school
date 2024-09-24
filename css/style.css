@@ -238,6 +238,22 @@ a {
   width: 43%;
 }
 
+.c-home-back-btn {
+  width: 25rem;
+  height: 5rem;
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1.32;
+}
+@media only screen and (max-width: 767px) {
+  .c-home-back-btn {
+    width: 33.5rem;
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+}
+
 .c-breadcrumb {
   width: 100%;
   height: 5rem;
@@ -1432,33 +1448,23 @@ a {
   }
 }
 
-.p-contact-send__inner p {
+.p-contact-send__text {
   background-color: yellow;
   padding-bottom: 4rem;
   font-size: 1.8rem;
   line-height: 1.6666666667;
 }
 @media only screen and (max-width: 767px) {
-  .p-contact-send__inner p {
+  .p-contact-send__text {
     font-size: 1.6rem;
     line-height: 1.875;
     text-align: left;
   }
 }
 
-.c-home-back-btn {
-  width: 25rem;
-  height: 5rem;
-  color: #fff;
-  font-size: 2.5rem;
-  font-weight: 600;
-  line-height: 1.32;
-}
 @media only screen and (max-width: 767px) {
-  .c-home-back-btn {
-    width: 33.5rem;
-    font-size: 2rem;
-    line-height: 1.3;
+  .p-contact-send__text--pad-short {
+    padding-bottom: 9px;
   }
 }
 

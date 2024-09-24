@@ -22,6 +22,7 @@
 @use 'object/component/c-contact'; // コンポーネントのスタイル（layout の後）
 @use 'object/component/c-section-title';    // プロジェクトのスタイル（layout の後）
 @use 'object/component/c-top-back-btn';    // プロジェクトのスタイル（layout の後）
+@use 'object/component/c-home-back-btn';    // プロジェクトのスタイル（layout の後）
 @use 'object/component/c-breadcrumb';    // プロジェクトのスタイル（layout の後）
 
 
@@ -35,6 +36,10 @@
 @use 'object/project/p-concept'; // プロジェクトのスタイル（layout の後）
 @use 'object/project/p-concept-flow'; // プロジェクトのスタイル（layout の後）
 @use 'object/project/p-concept-flow-detail'; // プロジェクトのスタイル（layout の後）
+
+
+
+
 @use 'object/project/p-reason'; // プロジェクトのスタイル（layout の後）
 @use 'object/project/p-reason-content'; // プロジェクトのスタイル（layout の後）
 @use 'object/project/p-reason-content-textarea'; // プロジェクトのスタイル（layout の後）
@@ -54,7 +59,7 @@
 @use 'object/project/p-result-list';    // プロジェクトのスタイル（layout の後）
 
 @use 'object/project/p-mv';    // プロジェクトのスタイル（layout の後）
-
+@use 'object/project/p-contact-send'; // プロジェクトのスタイル（layout の後）
 
 
 @use 'object/utility/u-utility';       // ユーティリティ（object の後）
