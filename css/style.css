@@ -196,7 +196,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 0.15rem;
+  padding-top: 1.1rem;
   position: fixed;
   bottom: 27.7rem;
   right: 0;
@@ -235,7 +235,6 @@ a {
   justify-content: center;
   align-items: center;
   position: fixed;
-  bottom: 37rem;
   right: 10rem;
   opacity: 0;
   visibility: hidden;
@@ -245,8 +244,26 @@ a {
 @media only screen and (max-width: 767px) {
   .c-top-back-btn {
     position: fixed;
-    bottom: 38rem;
+  }
+}
+
+.c-top-back-btn--bottom-long {
+  bottom: 37rem;
+}
+@media only screen and (max-width: 767px) {
+  .c-top-back-btn--bottom-long {
+    bottom: 380px;
     right: 2rem;
+  }
+}
+
+.c-top-back-btn--bottom-short {
+  bottom: 30.8rem;
+}
+@media only screen and (max-width: 767px) {
+  .c-top-back-btn--bottom-short {
+    bottom: 320px;
+    right: 3rem;
   }
 }
 
@@ -1183,7 +1200,7 @@ a {
 
 .p-blog__inner {
   background-color: yellow;
-  padding-block: 6.7rem 23.5rem;
+  padding-block: 6.7rem 23rem;
   position: relative;
 }
 @media only screen and (max-width: 767px) {

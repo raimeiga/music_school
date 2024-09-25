@@ -44,19 +44,13 @@ $('.p-qa-list__q').on('click', function(){
 // ページトップから、200pxスクロールしたら、トップに
 // 戻るボタンが表示され、200px以下だと非表示に戻る設定
 
-$(window).scroll(function(){
-
-  const conceptOffset = $('.p-fv').offset().top; 
-  const scrollTop = $(this).scrollTop()
-
-  if(scrollTop > 200) { 
-    $('.c-top-back-btn').addClass('active')
-    $('.c-btn').addClass('active')
-  } else {
-    $('.c-top-back-btn').removeClass('active')
-    $('.c-btn').removeClass('active')
-  }
-})
+$(window).on('scroll', function() {
+ if ($(this).scrollTop() > 200) {
+     $('.c-top-back-btn, .c-btn').addClass('active');
+ } else {
+     $('.c-top-back-btn, .c-btn').removeClass('active');
+ }
+});
 
 })
 

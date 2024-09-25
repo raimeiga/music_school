@@ -11,7 +11,6 @@
  justify-content: center;
  align-items: center;
  position: fixed;
- bottom: 37rem;
  right: 10rem; 
  opacity: 0;
  visibility: hidden;
@@ -19,14 +18,27 @@
  transition: all .4s;
  z-index: 999;
  @include sp {
-  position: fixed;
-   bottom: 38rem;
-   right: 2rem;
+  position: fixed;   
+ }
+}
+
+.c-top-back-btn--bottom-long {
+ bottom: 37rem;
+ @include sp {
+  bottom: 380px;
+  right: 2rem;
+ }
+}
+
+.c-top-back-btn--bottom-short {
+ bottom: 30.8rem;
+ @include sp {
+  bottom: 320px;
+  right: 3rem;
  }
 }
 
 .c-top-back-btn__icon {
  width: 43%;
 }
-
 
